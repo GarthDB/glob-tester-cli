@@ -1,6 +1,6 @@
 {
   "name": "glob-tester-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CLI implementation of glob to test it",
   "main": "index.js",
   "bin": {
