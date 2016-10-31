@@ -1,8 +1,11 @@
 {
-  "name": "omglob-cli",
+  "name": "glob-tester-cli",
   "version": "0.0.0",
   "description": "CLI implementation of glob to test it",
   "main": "index.js",
+  "bin": {
+    "glob": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +26,10 @@
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "glob": "^7.1.1",
+    "pkginfo": "^0.4.0"
   }
 }
