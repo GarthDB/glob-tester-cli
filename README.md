@@ -1,6 +1,4 @@
-# Glob Tester CLI
-
----
+# Glob Tester CLI [![npm version](https://badge.fury.io/js/glob-tester-cli.svg)](https://badge.fury.io/js/glob-tester-cli)
 
 Just a simple CLI tool to test [glob](https://www.npmjs.com/package/glob) patterns.
 
