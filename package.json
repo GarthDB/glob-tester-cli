@@ -1,0 +1,27 @@
+{
+  "name": "omglob-cli",
+  "version": "0.0.0",
+  "description": "CLI implementation of glob to test it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarthDB/omglob-cli.git"
+  },
+  "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GarthDB/omglob-cli/issues"
+  },
+  "homepage": "https://github.com/GarthDB/omglob-cli#readme",
+  "devDependencies": {
+    "cz-customizable": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
