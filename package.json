@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "commander": "^2.9.0",
-    "glob": "^7.1.1",
+    "glob": "^7.1.2",
     "pkginfo": "^0.4.0"
   }
 }
